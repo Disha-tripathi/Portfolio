@@ -112,7 +112,7 @@ export default function About() {
               ))}
             </motion.div>
           </motion.div>
-        
+        </motion.div>
 
         {/* Right Column */}
         <motion.div
