@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from "./Pages/Navbar"
 import Hero from './Pages/Home';
 import About from './Pages/About';
-import Work from './Pages/work';
+import Work from './Pages/Work';
 import MovingTitle from './Components/MovingTitle';
 import Contact from './Pages/Contact';
 
