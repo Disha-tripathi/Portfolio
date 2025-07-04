@@ -120,7 +120,7 @@ export default function About() {
           whileInView="visible"
           variants={container}
           viewport={{ once: false, amount: 0.2 }}
-          className="bg-gray-900 bg-opacity-50 rounded-xl p-6 border border-gray-800 -mt-28 ml-6"
+          className="bg-gray-900 bg-opacity-50 rounded-xl p-6 border border-gray-800 mt-[1rem] ml-6"
         >
           <motion.h3 
             variants={fadeUpItem}
