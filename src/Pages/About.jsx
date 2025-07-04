@@ -47,7 +47,7 @@ export default function About() {
       </div>
 
       <div className="max-w-5xl mx-auto relative z-10">
-        {/* Header - Starts when 15% visible */}
+        {/* Header */}
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -76,7 +76,7 @@ export default function About() {
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12">
-          {/* Left Column - Starts when 25% visible */}
+          {/* Left Column }
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -97,7 +97,7 @@ export default function About() {
             <motion.div variants={fadeUpItem} className="mt-10">
               <motion.h3 
                 variants={fadeUpItem}
-                className="text-sm font-mono text-gray-400 mb-4 tracking-widest"
+                className="text-sm font-mono text-gray-400 mb-4 mt-18 tracking-widest"
               >
                 METHODOLOGY
               </motion.h3>
