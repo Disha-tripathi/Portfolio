@@ -1,4 +1,3 @@
-// src/Components/About.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -95,7 +94,7 @@ export default function About() {
           <motion.div variants={fadeUpItem} className="mt-10">
             <motion.h3 
               variants={fadeUpItem}
-              className="text-sm font-mono text-gray-400 mb-4 mt-18 tracking-widest"
+              className="text-sm font-mono text-gray-400 mb-4 mt-16 tracking-widest"
             >
               METHODOLOGY
             </motion.h3>
