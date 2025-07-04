@@ -7,21 +7,21 @@ import Group from '../assets/Group.svg';
 const DeskScene = () => {
   return (
     <div className="relative w-full max-w-[600px] mx-auto h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px]">
-      
-      {/* Table + Laptop together */}
+      {/* Table */}
       <div className="absolute bottom-0 w-full">
-        {/* Table */}
         <img 
           src={Table} 
           alt="Workspace table" 
-          className="w-full h-auto max-h-[100px] sm:max-h-[120px] object-contain"
+          className="w-full h-auto max-h-[80px] sm:max-h-[100px] object-contain"
         />
+      </div>
 
-        {/* Laptop sitting on table */}
+      {/* Laptop */}
+      <div className="absolute bottom-[80px] sm:bottom-[90px] md:bottom-[100px] left-1/2 transform -translate-x-1/2 z-10">
         <img 
           src={Laptop} 
           alt="Developer laptop" 
-          className="absolute bottom-[40px] left-1/2 transform -translate-x-1/2 w-[200px] sm:w-[280px] md:w-[360px] lg:w-[420px] h-auto drop-shadow-lg"
+          className="w-[200px] sm:w-[280px] md:w-[360px] lg:w-[420px] h-auto drop-shadow-lg"
         />
       </div>
 
@@ -42,7 +42,6 @@ const DeskScene = () => {
           className="w-[60px] sm:w-[80px] md:w-[100px] lg:w-[120px]"
         />
       </div>
-
     </div>
   );
 };
