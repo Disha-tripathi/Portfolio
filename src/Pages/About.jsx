@@ -76,7 +76,7 @@ export default function About() {
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12">
-          {/* Left Column }
+          {/* Left Column */ }
           <motion.div
             initial="hidden"
             whileInView="visible"
